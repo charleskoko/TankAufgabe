@@ -1,0 +1,11 @@
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\obj\Debug\netcoreapp3.1\TankAufgabe.csprojAssemblyReference.cache
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\obj\Debug\netcoreapp3.1\TankAufgabe.AssemblyInfoInputs.cache
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\obj\Debug\netcoreapp3.1\TankAufgabe.AssemblyInfo.cs
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.exe
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.deps.json
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.runtimeconfig.json
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.runtimeconfig.dev.json
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.dll
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\bin\Debug\netcoreapp3.1\TankAufgabe.pdb
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\obj\Debug\netcoreapp3.1\TankAufgabe.dll
+C:\Users\jepht\source\repos\TankAufgabe\TankAufgabe\obj\Debug\netcoreapp3.1\TankAufgabe.pdb
