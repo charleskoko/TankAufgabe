@@ -26,16 +26,16 @@ namespace TankAufgabe
             {
                 userEingabe = 0;
                 int volumeDisponible = copyVolume - copyInhalt;
-                Console.Write("Es pass nur noch "+ volumeDisponible + " hinein");
+                Console.Write("Es passen nur noch "+ volumeDisponible + " Liter hinein");
                 while(!int.TryParse(Console.ReadLine(), out userEingabe))
                 {
-                    Console.WriteLine("Entrez une valeur numric svp!");
+                    Console.WriteLine("Geben Sie eine Zahl ein.");
                 }
                 neueInhalt = copyInhalt + userEingabe;
             }
 
             inhalt += userEingabe;
-            Console.WriteLine("Fuellmenge Tank: "+this.inhalt);
+            Console.WriteLine("Fuellmenge des Tanks: "+this.inhalt);
         }
 
         public void Entnehmen(int userEingabe)
@@ -50,7 +50,7 @@ namespace TankAufgabe
                 neueInhalt = copyInhalt - userEingabe;
             }
             inhalt -= userEingabe;
-            Console.WriteLine("Fuellmenge Tank: " + this.inhalt);
+            Console.WriteLine("Fuellmenge des Tanks: " + this.inhalt);
         }
 
     }

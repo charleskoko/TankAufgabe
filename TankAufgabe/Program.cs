@@ -32,13 +32,13 @@ namespace TankAufgabe
             {
                 case 'b':
                     Console.Clear();
-                    Console.Write("Wieviel Liter moechten Sie einfuellen: "); 
+                    Console.Write("Wieviel Liter moechten Sie einfuellen?  "); 
                     int userEingabe = UserEingabeChecking();
                     tank.Befuellen(userEingabe);
                     break;
                 case 'e':
                     Console.Clear();
-                    Console.Write("Wieviel Liter moechten Sie entnehmen: ");
+                    Console.Write("Wieviel Liter moechten Sie entnehmen?  ");
                     userEingabe = UserEingabeChecking();
                     tank.Entnehmen(userEingabe);
                     break;
@@ -74,7 +74,7 @@ namespace TankAufgabe
                 if (!is_valid)
                 {
                     Console.Clear();
-                    Console.WriteLine("Sil vous plait, Choisissez entre les element suivant:'b', 'e', 'x'. Merci! ");
+                    Console.WriteLine(" Bitte wählen Sie eines der folgenden Elemente: 'b', 'e', 'x'. Danke!");
                     DispLayMenu(tank);
                 }
             } while (!is_valid);
@@ -87,7 +87,7 @@ namespace TankAufgabe
             int id = 0;
             while (!int.TryParse(Console.ReadLine(), out id))
             {
-                Console.Write("Please Enter a valid numerical value!");
+                Console.Write("Geben Sie eine Zahl ein.");
                
             }
 
